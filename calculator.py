@@ -1,9 +1,11 @@
 # calculator.py
+import argparse
 
 def add(x, y):
     return x + y
 
-def subtract(x, y):import argparse
+def subtract(x, y):
+    return x - y
 
 # Define basic arithmetic functions
 def add(x, y):
