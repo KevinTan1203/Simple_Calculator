@@ -43,7 +43,6 @@ pipeline {
       }
     }
   }
-  }
   post {
     success {
       echo 'Build and test stages completed successfully.'
