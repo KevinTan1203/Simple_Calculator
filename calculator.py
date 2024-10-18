@@ -1,11 +1,4 @@
-# calculator.py
 import argparse
-
-def add(x, y):
-    return x + y
-
-def subtract(x, y):
-    return x - y
 
 # Define basic arithmetic functions
 def add(x, y):
@@ -67,16 +60,7 @@ if __name__ == "__main__":
         num2 = args.num2
 
         # Call the calculator function with the values (either from command line or input)
-        calculator(operation, num1, num2)
-        # return x - y
-
-def multiply(x, y):
-    return x * y
-
-def divide(x, y):
-    if y == 0:
-        return "Error: Division by zero"
-    return x / y
+        # calculator(operation, num1, num2)
 
 def calculator():
     print("Simple Calculator")
@@ -106,5 +90,5 @@ def calculator():
     else:
         print("Invalid choice. Please select a valid operation.")
 
-if __name__ == "__main__":
-    calculator()
+# if __name__ == "__main__":
+#     calculator()
